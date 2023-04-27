@@ -4,7 +4,7 @@ namespace LoginProject.Models
 {
     public static class SessionHelper
     {
-        public static int Count { get; set; }
+        public static int Count { get; set; } = new int();
         public static void SetObjectAsJson(this ISession session, string key, object value)
         {
             //session.SetString("Ad", "Şamil");

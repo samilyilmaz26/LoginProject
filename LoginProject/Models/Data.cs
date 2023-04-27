@@ -5,7 +5,7 @@
         
         public static List<Products> Products { get; set; }
         public static List<Users> Users { get; set; }
-        public static Users LoginUser  { get; set; }
+        public static Users LoginUser  { get; set; } = new Users();
         static Data()
         {
             Products = new List<Products>()
